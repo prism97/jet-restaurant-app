@@ -2,5 +2,10 @@
   min-height: 100vh;
   background-color: #EDE8F5;
   font-family: 'Courier New', Courier, monospace;
-  padding: 5em 10em;
+  padding: 3em 6em;
+}
+
+select {
+  margin-left: 1em;
+  padding: 0.25em;
 }

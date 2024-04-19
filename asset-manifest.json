@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jet-restaurant-app/static/css/main.60fc6215.css",
-    "main.js": "/jet-restaurant-app/static/js/main.16adde71.js",
+    "main.js": "/jet-restaurant-app/static/js/main.d538c3a6.js",
     "static/js/453.a0fc87b7.chunk.js": "/jet-restaurant-app/static/js/453.a0fc87b7.chunk.js",
     "index.html": "/jet-restaurant-app/index.html",
     "main.60fc6215.css.map": "/jet-restaurant-app/static/css/main.60fc6215.css.map",
-    "main.16adde71.js.map": "/jet-restaurant-app/static/js/main.16adde71.js.map",
+    "main.d538c3a6.js.map": "/jet-restaurant-app/static/js/main.d538c3a6.js.map",
     "453.a0fc87b7.chunk.js.map": "/jet-restaurant-app/static/js/453.a0fc87b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60fc6215.css",
-    "static/js/main.16adde71.js"
+    "static/js/main.d538c3a6.js"
   ]
 }

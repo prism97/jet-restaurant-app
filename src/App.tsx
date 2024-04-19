@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import Restaurant from './components/Restaurant';
+
 
 function App() {
+  const address = {
+    city: "London",
+    firstLine: "5-9 Great Eastern Street",
+  };
+
+  const restaurantData = {
+    name: 'Fat Hippo - Shoreditch',
+    address: address,
+    rating: 4.4,
+    cuisines: ['Burgers', 'American', 'Deals']
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Restaurant {...restaurantData} />
     </div>
   );
 }
+
 
 export default App;

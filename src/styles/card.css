@@ -1,0 +1,42 @@
+.card {
+    background-color: #7091E6;
+    color: white;
+    border-radius: 10px;
+    padding: 1.5em 2em;
+    margin-top: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card ul {
+    padding: 0;
+}
+
+.card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+        margin: 0;
+    }
+}
+
+.card__label {
+    margin-right: 5px;
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: #EDE8F5;
+    color: darkblue;
+
+    i {
+        margin-right: 5px;
+        color: #3D52A0;
+    }
+}
+
+.card__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    list-style-type: none;
+}

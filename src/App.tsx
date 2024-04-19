@@ -15,6 +15,17 @@ function App() {
     cuisines: ['Burgers', 'American', 'Deals']
   };
 
+  const postcode = 'EC4M7RF';
+  const url = `restaurants/enriched/bypostcode/${postcode}`;
+
+  const fetchRestaurantData = async () => {
+    const res = await fetch(url);
+    const jsonRes = await res.json();
+    console.log(jsonRes['restaurants'].slice(0, 10));
+  };
+
+  fetchRestaurantData();
+
   return (
     <div className="App">
         <Restaurant {...restaurantData} />

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://prism97.github.io/jet-restaurant-app/",
   "private": true,
+  "proxy": "https://uk.api.just-eat.io/discovery/uk/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
